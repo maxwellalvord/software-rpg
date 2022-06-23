@@ -1,12 +1,3 @@
-// import $ from 'jquery';
-import 'bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import "./css/styles.css";
-// import { startGame } from './scripts.js';
-// import { showText } from './scripts.js';
-// import { showChoice } from './scripts.js';
-// import { optionSelect } from './scripts.js';
-
 const textElement = document.getElementsById("text");
 const buttonOptionElement = document.getElementById("button-options");
 
@@ -67,7 +58,8 @@ const textNodes = [
 
 
 
+
+
 startGame();
-// showText();
-// showChoice();
-// optionSelect();
+
+
